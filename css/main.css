@@ -25,8 +25,49 @@ body {
 	color: var(--black);
 	line-height: 2;
 	border: 1px solid red;
+	text-align: center;
+
 }
+
+h1, h2, h3 {
+	font-family: Cormorant Garamond, serif;
+	color: var(--white);
+	font-size: 100%;
+	line-height: 1.2;
+	font-weight: 400;
+	background-image: url("../img/books.jpg");
+}
+
+
+h2 {
+	font-size: 130%;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+h3 {
+	color: var(--black);
+	font-family: Lato, sans-serif;
+	background-color: white;
+	background-image: none;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+	
 
 a {
 	color: var(--blue-light);
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+.component img {
+	max-width: initial;
+}
+.component__img {
+	border: 1px solid red;
+	oveflow-x: auto;
 }
