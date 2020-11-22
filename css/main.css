@@ -1,0 +1,32 @@
+:root {
+	--font-sans-serif: Lato, sans-serif;
+	--font-serif: Cormorant Garamond, serif;
+	--black: #000;
+	--gray-light: #aeaeae;
+	--gray-dark: #353434;
+	--white: #fff;
+	--blue-light: #93adc0;
+	--red: #a72825;
+}
+html {
+	box-sizing: border-box;
+
+}
+
+*,
+*:before
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	color: var(--black);
+	line-height: 2;
+	border: 1px solid red;
+}
+
+a {
+	color: var(--blue-light);
+}
