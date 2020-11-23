@@ -29,19 +29,19 @@ body {
 
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
 	font-family: Cormorant Garamond, serif;
-	color: var(--white);
+	color: var(--black);
 	font-size: 100%;
 	line-height: 1.2;
 	font-weight: 400;
-	background-image: url("../img/books.jpg");
+	
 }
 
 
 h2 {
 	font-size: 130%;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -55,11 +55,19 @@ h3 {
 	font-weight: 800;
 }
 ul {
-	color: var(--black);
+	
 	list-style-type: none;
 	text-transform: uppercase;
-	text-decoration: none;
+	
 	font-family: Cormorant Garamond;
+	display: flex;
+	align-items: center;
+}
+
+li {
+	padding: 20px;
+	text-decoration: none;
+	color: var(--black) !important;
 }
 	
 
@@ -72,9 +80,8 @@ img {
 	max-width: 100%;
 }
 
-nav-list-item {
-	color: var(--black);
-	transform: uppercase;
+
+
 }
 .component img {
 	max-width: initial;
@@ -82,4 +89,19 @@ nav-list-item {
 .component__img {
 	border: 1px solid red;
 	oveflow-x: auto;
+}
+.blog-image {
+	width: 50%; 
+    height: auto; 
+    object-fit: contain
+}
+
+.blog-post h2 {
+	text-align: left;
+	text-transform: lowercase;
+}
+
+.blog-post p {
+	text-align: left;
+	font-size: small;
 }
