@@ -54,6 +54,13 @@ h3 {
 	text-transform: uppercase;
 	font-weight: 800;
 }
+ul {
+	color: var(--black);
+	list-style-type: none;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: Cormorant Garamond;
+}
 	
 
 a {
@@ -63,6 +70,11 @@ a {
 img {
 	display: block;
 	max-width: 100%;
+}
+
+nav-list-item {
+	color: var(--black);
+	transform: uppercase;
 }
 .component img {
 	max-width: initial;
