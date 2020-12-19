@@ -64,14 +64,15 @@ ul {
 	
 	list-style-type: none;
 	text-transform: uppercase;
-	
+	margin-block-start: 0;
 	font-family: Cormorant Garamond;
 	display: flex;
 	align-items: center;
+	padding-inline-start: 0;
 }
 
 li {
-	padding: 20px;
+	padding: 20px 40px 20px 0px;
 	text-decoration: none;
 	color: var(--black) !important;
 }
@@ -99,8 +100,10 @@ button {
 
 }
 
+
 .header_background_image {
 background-image: url("../img/books.jpg");
+padding: 50px 100px 50px 100px
 
 }
 .header_background_image h2 {
@@ -157,4 +160,16 @@ background-image: url("../img/books.jpg");
 	color: var(--blue-light);
 	text-align: left;
 	text-transform: uppercase;
+}
+
+.nav-bar-items {
+	display: flex;
+	justify-content: flex-start;
+	text-align: left;
+	margin: 0;
+}
+
+.nav-icon {
+	padding: 0;
+	
 }
